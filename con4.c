@@ -1,6 +1,6 @@
 /***********************************************************************
 * COSC1076 - Advanced Programming Techniques
-* Semester 2 2015 Assignment #1 
+* Semester 2 2015 Assignment #1
 * Full Name        : EDIT HERE
 * Student Number   : EDIT HERE
 * Course Code      : EDIT HERE
@@ -32,15 +32,15 @@
  **/
 
 /**
- * @file con4.c contains the main function which is the entry point into the 
+ * @file con4.c contains the main function which is the entry point into the
  * application and manages the main memory.
  **/
 
 /**
- * the entry point into the game. You should display the main menu and 
+ * the entry point into the game. You should display the main menu and
  * respond to user requests.
  *
- * The main menu should look like this: 
+ * The main menu should look like this:
  * Welcome to connect 4
  *  \n\--------------------
  * 1. Play Game
@@ -48,7 +48,7 @@
  * 3. Quit
  * Please enter your choice:
  *
- * This menu should also be redisplayed when the program returns from 
+ * This menu should also be redisplayed when the program returns from
  * running an option.
  **/
 int main(void)
@@ -57,9 +57,9 @@ int main(void)
     scoreboard scores;
     /* the two players and a pointer to who won the last game */
     struct player human_player, computer_player, *winner;
-
-    /* with each of the comments below, insert the code that performs 
-     * this function 
+    printf("Hello world!");
+    /* with each of the comments below, insert the code that performs
+     * this function
      */
 
     /* initialise the scoreboard */
@@ -68,7 +68,7 @@ int main(void)
 
 	    /* play a game option */
 
-		    /* if there was not a draw, add player to the scoreboard in 
+		    /* if there was not a draw, add player to the scoreboard in
 		     * order by number of tokens in play
 		     */
 
